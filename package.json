@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "day1": "ts-node day1/index.ts"
+    "day1": "ts-node day1/index.ts",
+    "day2": "ts-node day2/index.ts"
   },
   "author": "",
   "license": "ISC",
