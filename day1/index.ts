@@ -5,6 +5,8 @@ const isNumber = (value?: string | number): boolean => {
   return value != null && value !== "" && !isNaN(Number(value.toString()));
 };
 
+const replaceWordsWithNum = (str: string): string => {};
+
 const getFirstDigit = (str: string): number => {
   for (let i = 0; i < str.length; i++) {
     if (isNumber(str[i])) {
